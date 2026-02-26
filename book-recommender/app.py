@@ -5,7 +5,7 @@ st.set_page_config(page_title="Book Recommender", layout="wide")
 
 st.title("📚 Book Recommendation System")
 
-books = pd.read_csv("books.csv")
+books = pd.read_csv("books_small.csv")
 
 selected_book = st.selectbox("Choose a book", books["title"].values)
 
