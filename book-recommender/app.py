@@ -10,7 +10,7 @@ model = pickle.load(open("svd_model.pkl", "rb"))
 # -------------------------------
 # Load Dataset Files
 # -------------------------------
-books = pd.read_csv("books.csv")
+books = pd.read_csv("books_new.csv")
 ratings = pd.read_csv("ratings.csv")
 
 # -------------------------------
